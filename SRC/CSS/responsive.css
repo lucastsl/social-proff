@@ -1,0 +1,34 @@
+@media (max-width:1024px){
+    .superior{
+        flex-wrap: wrap;
+        text-align: center;
+        width: 300px;
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+    .superior .info h1{
+        font-size: 40px;  
+    }
+    .superior .info p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .superior .star .lateral:nth-child(1), .superior .star .lateral:nth-child(2), .superior .star .lateral:nth-child(3){
+        align-self: center;
+    }
+    .superior .star .lateral{
+        gap: 5px;
+        flex-direction: column;
+    }
+    .inferior{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 500px;
+
+    }
+    .inferior .profile{
+        width: 300px;
+        height:230px ;
+    }
+    
+}

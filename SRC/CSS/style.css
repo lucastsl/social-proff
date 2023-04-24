@@ -1,0 +1,102 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.superior{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 100px;
+}
+.superior .info{
+    max-width: 450px;
+}
+.superior .info h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 70px;
+}
+.superior .info p{
+    color:hsl(303, 10%, 53%) ;
+    margin-top: 30px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.superior .star{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 500px;
+}
+.superior .star .lateral{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 50px;
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    
+}
+.superior .star .lateral p{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.superior .star .lateral:nth-child(1), .inferior .profile:nth-child(1){
+    align-self: flex-start;
+}
+.superior .star .lateral:nth-child(2) , .inferior .profile:nth-child(2){
+    align-self: center;
+}
+.superior .star .lateral:nth-child(3), .inferior .profile:nth-child(3){
+    align-self: flex-end;
+}
+
+.estrela{
+    width: 15px;
+    height: 15px;
+}
+
+.inferior{
+    display: flex;
+    gap: 20px;
+    height: 270px;
+}
+.inferior .profile{
+    background-color: hsl(300, 43%, 22%);
+    padding:  40px 30px;
+    width: 335px;
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.inferior .profile .photo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inferior .profile .photo .nome h3{
+    margin-bottom: 5px;
+    color:hsl(0, 0%, 100%) ;
+}
+
+.inferior .profile .photo .nome span{
+    color:hsl(333, 80%, 67%);
+}
+.inferior .profile .photo img{
+    width: 40px;
+    border-radius: 50%;
+}
+.inferior .profile p{
+    margin-top: 30px;
+    color: white;
+    line-height: 20px;
+    max-width:257px ;
+}
+
